@@ -1,0 +1,12 @@
+Feature,Database,Accession,Start,End,Interpretation
+REC lobe,InterProScan,PF16592,181,712,Recognition lobe involved in guide RNA and target DNA interactions
+REC lobe,NCBI CD-Search,pfam16592,181,710,Recognition lobe involved in guide RNA and target DNA interactions
+HNH domain,InterProScan,PF13395,821,871,Narrower HNH endonuclease signature match
+HNH domain,InterProScan,ProSite PS51749,770,921,Broader Cas9-type HNH profile match
+HNH domain,NCBI CD-Search,Not detected,,,No specific HNH hit in the supplied CD-Search results
+RuvC domain,InterProScan,PF22702,925,1099,RuvC signature match in the third RuvC sequence segment
+RuvC domain,NCBI CD-Search,Not detected,,,No specific RuvC hit in the supplied CD-Search results
+PAM-interacting domain,InterProScan,PF16595,1102,1358,Region involved in PAM recognition
+PAM-interacting domain,NCBI CD-Search,pfam16595,1102,1358,Region involved in PAM recognition
+Bridge helix,InterProScan,PF16593,62,94,Region connecting functional parts of Cas9
+Bridge helix,NCBI CD-Search,Not detected,,,No specific bridge helix hit in the supplied CD-Search results

@@ -1,0 +1,7 @@
+__pycache__/
+*.py[cod]
+*.Zone.Identifier
+*.save
+.ipynb_checkpoints/
+.env
+*:Zone.Identifier

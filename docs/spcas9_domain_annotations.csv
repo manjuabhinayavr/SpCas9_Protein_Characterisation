@@ -1,0 +1,10 @@
+Region,Start,End,Annotation_Type,Function,Source
+RuvC-I,1,62,Region,First segment of RuvC nuclease,UniProt Q99ZW2
+Arginine-rich motif (ARM),56,73,Region,Arginine-rich motif within the N-terminal recognition region,UniProt Q99ZW2
+Recognition lobe (REC),56,718,Region,Guide RNA and target DNA recognition,UniProt Q99ZW2
+Bridge helix,60,93,Structural region,Helical region connecting functional parts of Cas9,Nishimasu et al. 2014
+RuvC-II,718,765,Region,Second segment of RuvC nuclease,UniProt Q99ZW2
+HNH,770,921,Domain,Cas9-type HNH profile region,UniProt Q99ZW2
+HNH functional region,810,872,Functional region,Target DNA strand cleavage,UniProt Q99ZW2
+RuvC-III,925,1102,Region,Third segment of RuvC nuclease,UniProt Q99ZW2
+PAM-interacting (PI),1099,1368,Region,PAM recognition,UniProt Q99ZW2
