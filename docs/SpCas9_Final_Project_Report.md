@@ -1,7 +1,6 @@
 # In-silico Characterisation of SpCas9 Nuclease
 ## A Bioinformatics Approach to Protein Sequence, Domain and Structural Analysis
 
-**Project type:** Independent computational bioinformatics project
 
 ## Abstract
 
@@ -158,6 +157,10 @@ The instability index was below the conventional threshold of 40, indicating a s
 
 These values are theoretical sequence-derived estimates and do not establish experimental protein stability or solubility.
 
+
+
+
+
 ### 5.4 Domain Architecture
 
 Domain annotation identified the major architectural and functional regions of SpCas9.
@@ -264,6 +267,12 @@ Comparison with the 1,368-amino-acid UniProt reference identified:
 - The largest missing region was 448–715.
 
 The absent residues represent regions not modelled in the structural coordinates. They should not be interpreted as confirmed biological deletions.
+
+
+
+
+
+
 
 ## 6. Discussion
 
