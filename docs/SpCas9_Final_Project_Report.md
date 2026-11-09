@@ -86,6 +86,7 @@ The retrieved results were processed and filtered for analysis. Sequence identit
 
 A global pairwise alignment was performed between UniProt Q99ZW2 and WP_011285506.1 using Biopython PairwiseAligner.
 
+
 Parameters:
 - Substitution matrix: BLOSUM62
 - Gap opening penalty: -10
@@ -161,6 +162,12 @@ These values are theoretical sequence-derived estimates and do not establish exp
 
 
 
+
+
+
+
+
+
 ### 5.4 Domain Architecture
 
 Domain annotation identified the major architectural and functional regions of SpCas9.
@@ -181,7 +188,7 @@ The REC lobe represents a broad architectural annotation. Database-specific prof
 
 The RuvC domain is discontinuous and consists of three sequence segments.
 
-**Figure 2.** SpCas9 domain architecture and functional regions. Boundaries are approximate and derived from sequence-based annotations and literature definitions. ARM overlaps the bridge helix; overlapping regions are displayed on separate tracks.
+**Figure 2.** SpCas9 domain architecture and functional regions. Boundaries are approximate and derived from sequence-based annotations and literature definitions. Several annotated regions overlap and are displayed on separate tracks for clarity.
 
 ![Figure 2](../results/spcas9_domain_architecture_v3.png)
 
@@ -246,13 +253,13 @@ The modelled chains included:
 | N | DNA | 23 |
 | T | DNA | 23 |
 
-**Figure 4.** Three-dimensional representation of the SpCas9–RNA–DNA complex. The protein, RNA and DNA chains are distinguished by colour.
+**Figure 4.** Three-dimensional representation of the SpCas9–RNA–DNA complex (PDB 7S3H). Protein chain P is shown in blue, guide RNA chain R in magenta, and DNA chains N and T in dark grey and orange, respectively. The structural model contains 1,030 of the 1,368 reference protein residues; several regions are unresolved in the deposited structure.
 
 ![Figure 4](../results/spcas9_7S3H_chains_v3.png)
 
 The protein was also visualised with different colours assigned to selected domains.
 
-**Figure 5.** Domain-coloured three-dimensional representation of SpCas9 showing the selected REC, HNH, RuvC, PAM-interacting and bridge helix regions.
+**Figure 5.** Domain-coloured three-dimensional representation of SpCas9 showing the REC lobe in marine blue, HNH in red, RuvC in forest green, PAM-interacting (PI) region in cyan, bridge helix in yellow, and remaining protein regions in grey. Only the protein is displayed; nucleic acids are not shown. The structural model contains 1,030 of the 1,368 reference protein residues.
 
 ![Figure 5](../results/spcas9_domain_visualization_v2.png)
 
@@ -296,6 +303,7 @@ Overall, the project integrates sequence analysis, database annotation, similari
 4. Missing residues in the structural model do not necessarily represent biological deletions.
 5. PyMOL visualisation does not establish protein activity or biochemical function.
 6. No protein expression, purification, enzyme activity assays, molecular dynamics simulations or experimental validation were performed.
+7. 5. Figures 4 and 5 were rendered using the PyMOL evaluation version, which adds a watermark. The structural representation is limited to residues resolved in the deposited model.
 
 ## 8. Conclusion
 
